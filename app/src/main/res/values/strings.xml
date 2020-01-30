@@ -19,4 +19,14 @@
     <string name="title_notifications">Notifications</string>
     <string name="camera">Camera</string>
     <string name="title_activity_show">ShowActivity</string>
+    <string name="click_count_number">Click count number</string>
+    <string name="view_model_match">View Model Match</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="_3_points">+3 Points</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_sample">Notice that both fragments use getActivity() when getting the ViewModelProvider. As a result, both fragments receive the same SharedViewModel instance, which is scoped to the activity.</string>
+
 </resources>

@@ -13,32 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DemoGetFile">
+        <activity android:name=".ShareDataActivity"></activity>
+        <activity android:name=".withviewmodel.CountNumberActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".ui.demowebview.DemoFacebookActivity">
-
-        </activity>
-        <activity
-            android:name=".ui.crop.ShowActivity"
-            android:label="@string/title_activity_show"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.crop.CropActivity" />
-        <activity android:name=".ui.demoretrofit.DemoRetrofitActivity" />
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2" />
-        <activity android:name=".ReadFilePdfActivity" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
