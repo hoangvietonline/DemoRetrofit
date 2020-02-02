@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.hoangviet.demoui.R;
@@ -19,7 +20,7 @@ public class CountNumberActivity extends AppCompatActivity implements View.OnCli
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_count_number);
-        viewModel = ViewModelProviders.of(this).get(CountNumberViewModel.class);
+        viewModel = new ViewModelProvider(this).get(CountNumberViewModel.class);
         registerLiveDataListenner();
         initView();
     }
